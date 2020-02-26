@@ -11,7 +11,7 @@ cd     "$1" ||  return
 git clone https://github.com/SimonCanJer/spring-micro-hazel.git
 echo "transferring control to spring-micro-hazel"
 cd spring-micro-hazel
-cmod +x install.linux .sh
+chmod +x install.linux.sh
 ./install.linux .sh "$2"
 
 
