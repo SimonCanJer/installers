@@ -1,4 +1,4 @@
-mydir="$pwd"
+mydir="$(pwd)"
 declare -i len
 len = "$#"
 if [ $len -lt 2 ] ; then
