@@ -12,7 +12,7 @@ git clone https://github.com/SimonCanJer/spring-micro-hazel.git
 echo "transferring control to spring-micro-hazel"
 cd spring-micro-hazel
 chmod +x install.linux.sh
-./install.linux .sh "$2"
+./install.linux.sh "$2"
 
 
 
