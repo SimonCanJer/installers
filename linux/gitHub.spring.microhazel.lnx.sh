@@ -9,7 +9,8 @@ sudo mkdir "$1"
 cd     "$1" ||  return 
 git clone https://github.com/SimonCanJer/spring-micro-hazel.git
 cd spring-micro-hazel
-call install.linux  "$2"
+cmod +x install.linux .sh
+./install.linux .sh "$2"
 
 
 
