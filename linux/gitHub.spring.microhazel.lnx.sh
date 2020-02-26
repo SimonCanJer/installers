@@ -1,6 +1,6 @@
 mydir="$(pwd)"
 declare -i len
-len = "$#"
+len="$#"
 if [ $len -lt 2 ] ; then
 echo "wrong number of parameters, must be directories for spring micro and microjazel"
 return 

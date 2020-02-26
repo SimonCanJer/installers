@@ -8,5 +8,6 @@ cd       zuul-hazel-route || return
 echo "transfering control to install of zull-hazel-route"
 chmod +x install.linux.sh
 ./install.linux.sh  "$2" "$3"
+cd "$mypath"
 
 
